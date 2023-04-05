@@ -26,7 +26,7 @@
                     </p>
                 </div>
                 <div class="col-md-6">
-                    <!--img src="images/about-us.jpg" alt="About Us" class="img-fluid"-->
+                    <img src="images/about-us.jpg" alt="About Us" class="img-fluid">
                 </div>
             </div>
         </section>
@@ -35,8 +35,8 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card">
-                        <!--img src="images/schedule-appointment.jpg" alt="Schedule Appointment"
-                            class="card-img-top img-fluid"-->
+                        <img src="images/schedule-appointment.jpg" alt="Schedule Appointment"
+                            class="card-img-top img-fluid">
                         <div class="card-body">
                             <h5 class="card-title">Schedule Appointment</h5>
                             <p class="card-text">We streamline the process of scheduling appointments with top-rated
@@ -46,8 +46,8 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <!--img src="images/medical-information.jpg" alt="Medical Information"
-                            class="card-img-top img-fluid"-->
+                        <img src="images/medical-information.jpg" alt="Medical Information"
+                            class="card-img-top img-fluid">
                         <div class="card-body">
                             <h5 class="card-title">Medical Information</h5>
                             <p class="card-text">We provide comprehensive medical information to NRIs, including
@@ -57,8 +57,8 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <!--img src="images/medical-coordination.jpg" alt="Medical Coordination"
-                            class="card-img-top img-fluid"-->
+                        <img src="images/medical-coordination.jpg" alt="Medical Coordination"
+                            class="card-img-top img-fluid">
                         <div class="card-body">
                             <h5 class="card-title">Medical Coordination</h5>
                             <p class="card-text">We assist NRIs in coordinating their medical treatments in India,
@@ -71,65 +71,14 @@
         </section>
         <section id="contact" class="container mt-5">
             <h2 class="text-center">Contact Us</h2>
-             <form onsubmit="return validateForm()">
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="name">Your Name:</label>
-                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="email">Email Address:</label>
-                        <input type="email" class="form-control" id="email" placeholder="Your Email Address" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="phone">Phone Number:</label>
-                    <input type="tel" class="form-control" id="phone" placeholder="Your Phone Number" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-        </section>
-    </main>
+            <div class="card-body">
+        <iframe src="https://script.google.com/macros/s/AKfycbyIYgVnK1PkJYBidN8RL7Lwlt42izdMfPmtBSxbyNeXQWtpBRgV9kB928QcIDOiLgjiyg/exec" frameboarder="-1" width="100%" height="350px"> </iframe>
+            </div>
+                </section>
+        </main>
     <footer class="bg-light text-center py-3">
         <p>&copy; 2023 NRI MedHub. All rights reserved.</p>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script>
-        function validateForm() {
-            // Get form input values
-            var name = document.getElementById("name").value;
-            var email = document.getElementById("email").value;
-            var phone = document.getElementById("phone").value;
-            var message = document.getElementById("message").value;
-
-            // Perform form validation
-            if (name.trim() === "") {
-                alert("Please enter your name.");
-                return false;
-            }
-            if (email.trim() === "") {
-                alert("Please enter your email address.");
-                return false;
-            }
-            if (phone.trim() === "") {
-                alert("Please enter your phone number.");
-                return false;
-            }
-            if (message.trim() === "") {
-                alert("Please enter your message.");
-                return false;
-            }
-
-            // Form is valid, submit form
-            return true;
-        }
-    </script>
 </body>
 
 </html>
